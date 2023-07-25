@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Matrice A -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix A" />
+
+    <EditText
+        android:id="@+id/editTextMatrixA11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="1" />
+
+    <EditText
+        android:id="@+id/editTextMatrixA12"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="2" />
+
+    <EditText
+        android:id="@+id/editTextMatrixA21"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="3" />
+
+    <EditText
+        android:id="@+id/editTextMatrixA22"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="4" />
+
+    <!-- Matrice B -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Matrix B" />
+
+    <EditText
+        android:id="@+id/editTextMatrixB11"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="5" />
+
+    <EditText
+        android:id="@+id/editTextMatrixB12"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="6" />
+
+    <EditText
+        android:id="@+id/editTextMatrixB21"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="7" />
+
+    <EditText
+        android:id="@+id/editTextMatrixB22"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:text="8" />
+
+    <!-- Bouton de calcul -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <!-- Résultat -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
